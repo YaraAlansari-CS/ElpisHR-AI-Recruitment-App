@@ -1,7 +1,7 @@
 # 🧠 ElpisHR – AI-Powered Recruitment Platform
 
-> **🏆 Award: 2nd Best Graduation Project**  
-> *Computer Scince, Umm Al-Qura University*
+> 🏆 **Award:** 2nd Best Graduation Project  
+> 🎓 **Bachelor of Computer Science – Umm Al-Qura University**
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.0-blue?logo=flutter)
 ![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python)
@@ -12,192 +12,317 @@
 
 ---
 
-## 📌 Overview
-**ElpisHR** is an AI-driven HR platform designed to revolutionize the recruitment process. It streamlines hiring by automating **CV sorting** using Natural Language Processing (NLP), conducting **initial interviews** via an intelligent AI chatbot (powered by OpenAI GPT-3.5), and providing HR teams with **data-driven analytics** for unbiased decision-making.
+# 📌 Overview
 
-By integrating these features, ElpisHR enhances HR efficiency and aligns with the digital transformation goals of **Saudi Arabia's Vision 2030**.
+**ElpisHR** is an AI-powered recruitment platform designed to modernize the hiring process through intelligent automation. The platform streamlines recruitment by automatically sorting resumes using Natural Language Processing (NLP), conducting AI-powered preliminary interviews, and providing HR professionals with data-driven insights for more objective hiring decisions.
 
-> **📄 Final Report:** [Click here to view the full documentation](./docs/Final_Report.pdf)  !!!!!!!!
-> **🏅 Award Certificate:** [View Certificate](./assets/Award_Certificate.pdf)  !!!!!!!!
+By integrating advanced AI technologies into a single platform, ElpisHR reduces manual effort, improves recruitment efficiency, and supports the digital transformation goals of **Saudi Vision 2030**.
 
 ---
 
-## 🎯 Key Features
-The platform serves two main user types with distinct, powerful interfaces:
+## 📄 Documentation
 
-### 👩‍💼 HR Interface (Recruiters & Managers)
-- **Dashboard Analytics:** Real-time overview of job openings and applications.
-- **AI-Powered Resume Sorting:** Automatically ranks candidates using **Sentence-BERT** and **Cosine Similarity**.
-- **Interview Management:** Sends invitations and reviews AI-generated interview summaries.
-- **Job Posting Management:** Create, edit, or close job listings effortlessly.
-
-### 👤 Candidate Interface (Job Seekers)
-- **Job Search & Apply:** Browse openings and apply with CV uploads (supports PDF & scanned images via OCR).
-- **AI Chatbot Interview:** Engage in a dynamic, adaptive conversational interview powered by GPT-3.5.
-- **Application Tracking:** Real-time status updates and personalized dashboard.
-- **Profile Management:** Manage personal information and application history.
-
-### 🔐 Common Features (Both Interfaces)
-- Secure **Authentication** (Sign-up, Login, JWT Tokens) with Role-Based Access Control (RBAC).
-- Email verification and "Forgot Password" recovery.
+- **Final Report:** [`docs/Final_Report.pdf`](./docs/Final_Report.pdf)
+- **Award Certificate:** [`assets/Award_Certificate.pdf`](./assets/Award_Certificate.pdf)
 
 ---
 
-## 🛠️ Tech Stack
+## 🎥 Demo
 
-| **Category** | **Technology** | **Purpose** |
-
-| **Frontend (Mobile)** | Flutter (Dart) | Cross-platform app (Android/iOS) with a smooth native-like UI. |
-| **Backend Server** | Python, Flask | RESTful API handling authentication, job logic, and AI integration. |
-| **Database** | Supabase (PostgreSQL) | Secure storage for users, jobs, applications, and interview results. |
-| **AI / NLP (Sorting)** | Sentence-BERT (SBERT) + Cosine Similarity | Semantic matching and ranking of resumes against job descriptions. |
-| **AI / NLP (Chatbot)** | OpenAI GPT-3.5, SpaCy, NLTK | Real-time conversational interviews and response evaluation. |
-| **OCR (Text Extraction)** | pdfplumber, pdf2image, pytesseract | Extracts text from PDFs and scanned image resumes. |
-| **Version Control** | Git & GitHub | Code management and collaboration. |
+▶️ **Watch the project demo here:**  
+[Demo Video](https://your-demo-link.com)
 
 ---
 
-## 📁 Project Structure (Current Repository)
-*This structure reflects the actual Flutter project layout:*
+# ✨ Key Features
+
+## 👩‍💼 HR Portal
+
+- 📊 Interactive dashboard with recruitment analytics
+- 🤖 AI-powered resume ranking using Sentence-BERT and Cosine Similarity
+- 📅 Interview management and candidate tracking
+- 📝 Create, edit, and close job postings
+- 📄 Review AI-generated interview summaries
+- 📈 Data-driven hiring recommendations
+
+---
+
+## 👤 Candidate Portal
+
+- 🔍 Browse available job opportunities
+- 📄 Upload resumes (PDF or scanned images)
+- 💬 Complete AI-powered chatbot interviews
+- 📊 Track application status in real time
+- 👤 Manage profile and application history
+
+---
+
+## 🔐 Authentication & Security
+
+- User registration and login
+- JWT Authentication
+- Role-Based Access Control (RBAC)
+- Email verification
+- Forgot Password functionality
+
+---
+
+# 🛠️ Technology Stack
+
+| Category | Technologies | Purpose |
+|----------|--------------|---------|
+| **Frontend** | Flutter (Dart) | Cross-platform mobile & web application |
+| **Backend** | Python, Flask | RESTful API and business logic |
+| **Database** | Supabase (PostgreSQL) | Data storage and authentication |
+| **Resume Ranking AI** | Sentence-BERT (all-MiniLM-L6-v2), Cosine Similarity | Semantic resume matching |
+| **Interview AI** | OpenAI GPT-3.5 Turbo, SpaCy, NLTK | Conversational interviews |
+| **OCR** | pdfplumber, pdf2image, pytesseract | Extract text from PDFs and scanned resumes |
+| **Version Control** | Git & GitHub | Source code management |
+
+---
+
+# 📁 Project Structure
+
+```text
 ElpisHR/
-├── android/ # Android native build files
-├── ios/ # iOS native build files
-├── lib/ # Flutter frontend source code (Dart)
-├── backend/ # Python Flask backend server
-│ ├── app.py # Main entry point
-│ ├── requirements.txt # Python dependencies
-│ └── ... # API routes & AI logic
-├── web/ # Flutter web build
-├── windows/ & linux/ & macos/ # Desktop builds
-├── test/ # Flutter unit tests
-├── assets/ # Project images & certificate
-├── docs/ # Documentation (Final Report, etc.)
-├── .devcontainer/ # Dev container config
-└── README.md # This file
+│
+├── android/                 # Android project
+├── ios/                     # iOS project
+├── lib/                     # Flutter application
+├── backend/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── ...
+├── assets/                  # Images & certificates
+├── docs/                    # Documentation
+├── test/                    # Flutter tests
+├── web/
+├── windows/
+├── linux/
+├── macos/
+├── .devcontainer/
+└── README.md
+```
 
 ---
 
-## 🧠 AI Algorithms & Implementation Details
+# 🧠 AI Implementation
 
-### 1. CV Sorting & Candidate Ranking (SBERT)
-- **Approach:** Uses **Sentence-BERT (all-MiniLM-L6-v2)** to convert resumes and job descriptions into vector embeddings.
-- **Matching:** Calculates **Cosine Similarity** between vectors to generate a score (0 to 1).
-- **Ranking:** Sorts candidates by score, highlighting top matches for HR review.
-- **Text Extraction:** Handles multiple formats (PDF, scanned images) using `pdfplumber` and `pytesseract` (OCR).
+## 1️⃣ Resume Ranking (Sentence-BERT)
 
-### 2. AI-Powered Interview Chatbot (OpenAI)
-- **Approach:** Employs **GPT-3.5 Turbo** to simulate human-like interviews.
-- **Interaction:** Asks predefined and adaptive follow-up questions based on candidate responses.
-- **Evaluation:** Analyzes responses for relevance, clarity, and experience depth.
-- **Summary:** Generates a structured report (strengths, weaknesses, job-fit score) stored for HR review.
+### Workflow
 
-### 3. Performance Metrics
+- Extract text from uploaded resumes
+- Convert resumes and job descriptions into embeddings using Sentence-BERT
+- Calculate semantic similarity using Cosine Similarity
+- Rank applicants based on similarity score
+- Display the best candidates to HR personnel
 
-| **Module** | **Metric** | **Result** |
+### Supported Resume Formats
 
-| **Sorting Applications** | Accuracy / F1-Score | 81.50% / 0.7945 |
-| **Sorting Applications** | Loss | 0.0865 |
-| **Interview Chatbot** | Overall Accuracy (Risk Factor) | 64.7% |
-| **Interview Chatbot** | Response Speed | ~73 ms per token |
+- PDF
+- Scanned PDFs
+- Image-based resumes (OCR)
 
 ---
 
-## 🔗 API Endpoints (Flask Backend)
+## 2️⃣ AI Interview Chatbot
 
-| **Category** | **Method** | **Endpoint** | **Description** |
+Powered by **OpenAI GPT-3.5 Turbo**
 
-| **Auth** | POST | `/signup` | Register new user (HR/Candidate). |
-| **Auth** | POST | `/login` | Login & receive JWT token. |
-| **Jobs** | POST | `/add_job` | HR adds a new job posting. |
-| **Jobs** | GET | `/get_open_jobs` | Retrieve all available jobs. |
-| **Applications** | POST | `/save_application` | Candidate applies with CV. |
-| **AI Sorting** | GET | `/sort_applications/<jobID>` | AI ranks applicants using SBERT. |
-| **AI Chatbot** | POST | `/start_interview` | Initiate AI interview. |
-| **AI Chatbot** | POST | `/send_message` | Send response to chatbot. |
-| **HR** | GET | `/get_candidate_summary` | Get AI-generated interview report. |
+### Features
+
+- Dynamic interview conversations
+- Context-aware follow-up questions
+- Candidate response evaluation
+- Communication and experience assessment
+- Automatic interview summary generation
+- Job-fit scoring for HR review
 
 ---
 
-## 🚀 How to Run Locally
+## 3️⃣ AI Performance
 
-### Prerequisites
-- **Flutter SDK** (for mobile/web)
-- **Python 3.9+** (for backend)
-- **Supabase Account** (or PostgreSQL)
+| Module | Metric | Result |
+|---------|--------|--------|
+| Resume Ranking | Accuracy | **81.50%** |
+| Resume Ranking | F1 Score | **0.7945** |
+| Resume Ranking | Loss | **0.0865** |
+| AI Interview | Overall Accuracy | **64.7%** |
+| AI Interview | Average Response Speed | **~73 ms/token** |
 
-### 1. Backend Setup (Flask)
+---
+
+# 🔗 REST API
+
+| Category | Method | Endpoint | Description |
+|----------|--------|----------|-------------|
+| Authentication | POST | `/signup` | Register a new user |
+| Authentication | POST | `/login` | Authenticate user and return JWT |
+| Jobs | POST | `/add_job` | Create a new job posting |
+| Jobs | GET | `/get_open_jobs` | Retrieve all available jobs |
+| Applications | POST | `/save_application` | Submit a job application |
+| AI Ranking | GET | `/sort_applications/<jobID>` | Rank applicants using AI |
+| AI Interview | POST | `/start_interview` | Start AI interview |
+| AI Interview | POST | `/send_message` | Continue chatbot conversation |
+| HR | GET | `/get_candidate_summary` | Retrieve AI interview report |
+
+---
+
+# 🚀 Running the Project
+
+## Prerequisites
+
+- Flutter SDK
+- Python 3.9+
+- Supabase Account (or PostgreSQL)
+- Git
+
+---
+
+## Backend Setup
+
 ```bash
 cd backend
+
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Windows
+venv\Scripts\activate
+
+# Linux / macOS
+source venv/bin/activate
+
 pip install -r requirements.txt
+
 python app.py
+```
 
-Server runs on http://localhost:5000
+Backend will run at:
 
-### 2. Frontend Setup (Flutter)
-bash
-cd ..  # Go to root folder (where pubspec.yaml is located)
+```text
+http://localhost:5000
+```
+
+---
+
+## Frontend Setup
+
+```bash
+cd ..
+
 flutter pub get
+
 flutter run
-Select your device (Android/iOS/Web).
+```
 
-### 3. Environment Variables
-Create a .env file in the backend/ folder:
+Choose your preferred device:
 
-text
-OPENAI_API_KEY=your_openai_key
+- Android
+- iOS
+- Web
+
+---
+
+## Environment Variables
+
+Create a `.env` file inside the `backend/` directory.
+
+```env
+OPENAI_API_KEY=your_openai_api_key
+
 SUPABASE_URL=your_supabase_url
+
 SUPABASE_ANON_KEY=your_supabase_anon_key
+
 JWT_SECRET=your_jwt_secret
-****
+```
 
-🧪 Testing Methodology
-Functional Testing: Validated core features (CV sorting, chatbot, authentication) against system requirements.
+---
 
-Usability Testing: Evaluated user experience (navigation, intuitiveness) with HR professionals and candidates.
+# 🧪 Testing
 
-Dataset: Trained AI models on the Kaggle Resume Dataset (2,400+ resumes, 853 job descriptions).
+### Functional Testing
+
+Validated the following modules against the system requirements:
+
+- Authentication
+- Resume Ranking
+- AI Interview Chatbot
+- Job Management
+- Application Submission
+
+### Usability Testing
+
+Conducted usability evaluations with:
+
+- HR professionals
+- Job seekers
+
+### Dataset
+
+Training and evaluation were performed using the **Kaggle Resume Dataset**, containing:
+
+- 2,400+ resumes
+- 853 job descriptions
+
+---
+
+# 🏆 Awards & Recognition
+
+🥈 **2nd Best Graduation Project**
+
+**College of Computer Science**  
+**Umm Al-Qura University**
+
+Recognized for applying Artificial Intelligence to optimize recruitment processes in alignment with **Saudi Vision 2030**.
+
+---
+
+# 👩‍💻 My Contributions
+
+As the **Team Lead** and **Core Developer**, I was responsible for:
+
+- Designing the overall system architecture
+- Developing the complete Flask backend
+- Building RESTful APIs
+- Integrating OpenAI GPT-3.5
+- Implementing Sentence-BERT resume ranking
+- Designing the PostgreSQL database using Supabase
+- Connecting the Flutter frontend with backend services
+- Performing functional and usability testing
+- Writing the final project documentation
+- Presenting the project to the evaluation committee
+
+---
+
+# 🔮 Future Improvements
+
+- 📊 Employee performance analytics
+- 🎓 AI-powered training recommendations
+- 🔗 Integration with SAP and Oracle HR systems
+- 📱 Offline application support with synchronization
+- 🌍 Multi-language support (Arabic, English, French)
+
+---
+
+# 📫 Contact
+
+**GitHub**  
+https://github.com/YaraAlansari-CS
+
+**LinkedIn**  
+https://linkedin.com/in/your-username
+
+**Email**  
+yara.alansari01@gmail.com
+
+---
+
+# ⭐ Support
+
+If you found this project interesting or helpful, please consider giving it a ⭐ on GitHub!
+
+Thank you for your support!
 
 
-🏆 Awards & Recognition
-2nd Best Graduation Project – [اسم جامعتك], [السنة].
-
-Recognized for innovation in applying AI to optimize HR operations in line with Saudi Vision 2030.
-
-
-👩‍💻 My Role
-As the core developer and team lead, I was responsible for:
-
-Designing the system architecture (Frontend + Backend + AI integration).
-
-Building the Flask backend and all RESTful APIs.
-
-Integrating OpenAI GPT-3.5 and Sentence-BERT for the AI features.
-
-Designing the SQL database schema on Supabase.
-
-Conducting functional and usability testing.
-
-Writing the final project documentation and presenting to the judging panel.
-
-🔮 Future Work
-Employee Insights: Advanced analytics for employee performance and training recommendations.
-
-Third-Party Integration: Connect with external HR tools (SAP, Oracle).
-
-Offline Access: Allow candidates to apply without internet (sync later).
-
-Multi-Language Support: Expand usability globally (Arabic, English, French).
-
-
-📫 Connect with Me
-LinkedIn: https://linkedin.com/in/[your-username]
-
-GitHub: https://github.com/YaraAlansari-CS
-
-Email: your-email@example.com
-
-⭐ If you like this project, don't forget to give it a star!
-## 📁 Project Structure (Current Repository)
-*This structure reflects the actual Flutter project layout:*
