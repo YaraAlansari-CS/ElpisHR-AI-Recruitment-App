@@ -1,6 +1,6 @@
-# 🧠 ElpisHR – AI-Powered Recruitment Platform
+# 🧠 ElpisHR – AI-Powered Recruitment App
 
-> 🏆 **Award:** 2nd Best Graduation Project  
+> 🏆 **Award:** 2nd Best Graduation Project Poster
 > 🎓 **Bachelor of Computer Science – Umm Al-Qura University**
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.0-blue?logo=flutter)
@@ -22,15 +22,15 @@ By integrating advanced AI technologies into a single platform, ElpisHR reduces 
 
 ## 📄 Documentation
 
-- **Final Report:** [`docs/Final_Report.pdf`](./docs/Final_Report.pdf)
-- **Award Certificate:** [`assets/Award_Certificate.pdf`](./assets/Award_Certificate.pdf)
+- **Final Report:** [View Final Report](https://drive.google.com/file/d/18xrQSiriiAXdydM0kRyID8Saak0Sy51e/view?usp=sharing)
+- **Award Certificate:** [`assets/Award_Certificate.pdf`](./assets/Award_Certifate)
 
 ---
 
 ## 🎥 Demo
 
 ▶️ **Watch the project demo here:**  
-[Demo Video](https://your-demo-link.com)
+[View Demo Video](https://drive.google.com/file/d/1nXlrnkcmSo6qZpXQeLMEt_KCw3q8SnuN/view?usp=sharing)
 
 ---
 
@@ -270,7 +270,7 @@ Training and evaluation were performed using the **Kaggle Resume Dataset**, cont
 
 # 🏆 Awards & Recognition
 
-🥈 **2nd Best Graduation Project**
+🥈 **2nd Best Graduation Project Poster**
 
 **College of Computer Science**  
 **Umm Al-Qura University**
@@ -281,10 +281,10 @@ Recognized for applying Artificial Intelligence to optimize recruitment processe
 
 # 👩‍💻 My Contributions
 
-As the **Team Lead** and **Core Developer**, I was responsible for:
+As the **Team Core Developer**, I participated in:
 
-- Designing the overall system architecture
-- Developing the complete Flask backend
+- Designing the system architecture
+- Developing the Flask backend
 - Building RESTful APIs
 - Integrating OpenAI GPT-3.5
 - Implementing Sentence-BERT resume ranking
@@ -308,15 +308,12 @@ As the **Team Lead** and **Core Developer**, I was responsible for:
 
 # 📫 Contact
 
-**GitHub**  
-https://github.com/YaraAlansari-CS
-
-**LinkedIn**  
-https://linkedin.com/in/your-username
-
-**Email**  
-yara.alansari01@gmail.com
-
+- **GitHub:** [YaraAlansari-CS](https://github.com/YaraAlansari-CS)
+  
+- **LinkedIn:** [Yara Alansari](https://www.linkedin.com/in/yara-alansari-64b17a317)
+  
+- **Email:** yara.alansari01@gmail.com
+  
 ---
 
 # ⭐ Support
@@ -324,5 +321,3 @@ yara.alansari01@gmail.com
 If you found this project interesting or helpful, please consider giving it a ⭐ on GitHub!
 
 Thank you for your support!
-
-
