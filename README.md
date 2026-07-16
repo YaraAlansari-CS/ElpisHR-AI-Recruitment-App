@@ -12,7 +12,7 @@
 
 ---
 
-# 📌 Overview
+## 📌 Overview
 
 **ElpisHR** is an AI-powered recruitment platform designed to modernize the hiring process through intelligent automation. The platform streamlines recruitment by automatically sorting resumes using Natural Language Processing (NLP), conducting AI-powered preliminary interviews, and providing HR professionals with data-driven insights for more objective hiring decisions.
 
@@ -34,9 +34,9 @@ By integrating advanced AI technologies into a single platform, ElpisHR reduces 
 
 ---
 
-# ✨ Key Features
+## ✨ Key Features
 
-## 👩‍💼 HR Portal
+### 👩‍💼 HR Portal
 
 - 📊 Interactive dashboard with recruitment analytics
 - 🤖 AI-powered resume ranking using Sentence-BERT and Cosine Similarity
@@ -47,7 +47,7 @@ By integrating advanced AI technologies into a single platform, ElpisHR reduces 
 
 ---
 
-## 👤 Candidate Portal
+### 👤 Candidate Portal
 
 - 🔍 Browse available job opportunities
 - 📄 Upload resumes (PDF or scanned images)
@@ -57,7 +57,7 @@ By integrating advanced AI technologies into a single platform, ElpisHR reduces 
 
 ---
 
-## 🔐 Authentication & Security
+### 🔐 Authentication & Security
 
 - User registration and login
 - JWT Authentication
@@ -67,7 +67,7 @@ By integrating advanced AI technologies into a single platform, ElpisHR reduces 
 
 ---
 
-# 🛠️ Technology Stack
+## 🛠️ Technology Stack
 
 | Category | Technologies | Purpose |
 |----------|--------------|---------|
@@ -81,7 +81,7 @@ By integrating advanced AI technologies into a single platform, ElpisHR reduces 
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```text
 ElpisHR/
@@ -106,11 +106,11 @@ ElpisHR/
 
 ---
 
-# 🧠 AI Implementation
+## 🧠 AI Implementation
 
-## 1️⃣ Resume Ranking (Sentence-BERT)
+### 1️⃣ Resume Ranking (Sentence-BERT)
 
-### Workflow
+#### Workflow
 
 - Extract text from uploaded resumes
 - Convert resumes and job descriptions into embeddings using Sentence-BERT
@@ -118,7 +118,7 @@ ElpisHR/
 - Rank applicants based on similarity score
 - Display the best candidates to HR personnel
 
-### Supported Resume Formats
+#### Supported Resume Formats
 
 - PDF
 - Scanned PDFs
@@ -126,11 +126,11 @@ ElpisHR/
 
 ---
 
-## 2️⃣ AI Interview Chatbot
+### 2️⃣ AI Interview Chatbot
 
 Powered by **OpenAI GPT-3.5 Turbo**
 
-### Features
+#### Features
 
 - Dynamic interview conversations
 - Context-aware follow-up questions
@@ -141,7 +141,7 @@ Powered by **OpenAI GPT-3.5 Turbo**
 
 ---
 
-## 3️⃣ AI Performance
+### 3️⃣ AI Performance
 
 | Module | Metric | Result |
 |---------|--------|--------|
@@ -153,7 +153,7 @@ Powered by **OpenAI GPT-3.5 Turbo**
 
 ---
 
-# 🔗 REST API
+## 🔗 REST API
 
 | Category | Method | Endpoint | Description |
 |----------|--------|----------|-------------|
@@ -169,9 +169,9 @@ Powered by **OpenAI GPT-3.5 Turbo**
 
 ---
 
-# 🚀 Running the Project
+## 🚀 Running the Project
 
-## Prerequisites
+### Prerequisites
 
 - Flutter SDK
 - Python 3.9+
@@ -180,7 +180,7 @@ Powered by **OpenAI GPT-3.5 Turbo**
 
 ---
 
-## Backend Setup
+### Backend Setup
 
 ```bash
 cd backend
@@ -206,7 +206,7 @@ http://localhost:5000
 
 ---
 
-## Frontend Setup
+### Frontend Setup
 
 ```bash
 cd ..
@@ -224,7 +224,7 @@ Choose your preferred device:
 
 ---
 
-## Environment Variables
+### Environment Variables
 
 Create a `.env` file inside the `backend/` directory.
 
@@ -240,7 +240,7 @@ JWT_SECRET=your_jwt_secret
 
 ---
 
-# 🧪 Testing
+## 🧪 Testing
 
 ### Functional Testing
 
@@ -268,7 +268,7 @@ Training and evaluation were performed using the **Kaggle Resume Dataset**, cont
 
 ---
 
-# 🏆 Awards & Recognition
+## 🏆 Awards & Recognition
 
 🥈 **2nd Best Graduation Project Poster**
 
@@ -279,7 +279,7 @@ Recognized for applying Artificial Intelligence to optimize recruitment processe
 
 ---
 
-# 👩‍💻 My Contributions
+## 👩‍💻 My Contributions
 
 As the **Team Core Developer**, I participated in:
 
@@ -296,7 +296,7 @@ As the **Team Core Developer**, I participated in:
 
 ---
 
-# 🔮 Future Improvements
+## 🔮 Future Improvements
 
 - 📊 Employee performance analytics
 - 🎓 AI-powered training recommendations
@@ -306,7 +306,7 @@ As the **Team Core Developer**, I participated in:
 
 ---
 
-# 📫 Contact
+## 📫 Contact
 
 - **GitHub:** [YaraAlansari-CS](https://github.com/YaraAlansari-CS)
   
@@ -316,7 +316,7 @@ As the **Team Core Developer**, I participated in:
   
 ---
 
-# ⭐ Support
+## ⭐ Support
 
 If you found this project interesting or helpful, please consider giving it a ⭐ on GitHub!
 
