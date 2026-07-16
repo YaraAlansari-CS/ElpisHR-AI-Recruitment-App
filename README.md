@@ -281,7 +281,7 @@ Recognized for applying Artificial Intelligence to optimize recruitment processe
 
 ## 👩‍💻 My Contributions
 
-As the **Core Developer**, I participated in:
+As the **Core Developer**, I contributed to:
 
 - Designing the system architecture
 - Developing the Flask backend
@@ -314,5 +314,6 @@ As the **Core Developer**, I participated in:
   
 ---
 
-⭐ **If you found this project interesting or helpful, consider giving this repository a star!**
-**Thank You for Reading!**
+⭐ **If you found this project interesting or helpful, consider giving it a star on GitHub.
+
+Thank you for taking the time to explore this project!**
