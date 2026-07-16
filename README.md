@@ -22,15 +22,15 @@ By integrating advanced AI technologies into a single platform, ElpisHR reduces 
 
 ## 📄 Documentation
 
-- **Final Report:** [View Final Report](https://drive.google.com/file/d/18xrQSiriiAXdydM0kRyID8Saak0Sy51e/view?usp=sharing)
-- **Award Certificate:** [`assets/Award_Certificate.pdf`](./assets/Award_Certifate)
+- **Final Report:** [Final Report](https://drive.google.com/file/d/18xrQSiriiAXdydM0kRyID8Saak0Sy51e/view?usp=sharing)
+- **Award Certificate:** [`Award_Certificate.pdf`](./assets/Award_Certificate.pdf) 
 
 ---
 
 ## 🎥 Demo
 
 ▶️ **Watch the project demo here:**  
-[View Demo Video](https://drive.google.com/file/d/1nXlrnkcmSo6qZpXQeLMEt_KCw3q8SnuN/view?usp=sharing)
+[Demo Video](https://drive.google.com/file/d/1nXlrnkcmSo6qZpXQeLMEt_KCw3q8SnuN/view?usp=sharing)
 
 ---
 
@@ -281,7 +281,7 @@ Recognized for applying Artificial Intelligence to optimize recruitment processe
 
 ## 👩‍💻 My Contributions
 
-As the **Team Core Developer**, I participated in:
+As the **Core Developer**, I participated in:
 
 - Designing the system architecture
 - Developing the Flask backend
@@ -308,16 +308,11 @@ As the **Team Core Developer**, I participated in:
 
 ## 📫 Contact
 
-- **GitHub:** [YaraAlansari-CS](https://github.com/YaraAlansari-CS)
-  
-- **LinkedIn:** [Yara Alansari](https://www.linkedin.com/in/yara-alansari-64b17a317)
-  
+- **GitHub:** https://github.com/YaraAlansari-CS
+- **LinkedIn:** https://www.linkedin.com/in/yara-alansari-64b17a317
 - **Email:** yara.alansari01@gmail.com
   
 ---
 
-## ⭐ Support
-
-If you found this project interesting or helpful, please consider giving it a ⭐ on GitHub!
-
-Thank you for your support!
+⭐ **If you found this project interesting or helpful, consider giving this repository a star!**
+**Thank You for Reading!**
