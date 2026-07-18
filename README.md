@@ -314,6 +314,5 @@ As the **Core Developer**, I contributed to:
 
 ---
 
-⭐ **If you found this project interesting or helpful, consider giving it a star on GitHub.**
-
+⭐ **If you found this project interesting or helpful, consider giving it a star on GitHub.**<br>
 🙏🏻 **Thank you for taking the time to explore this project!**
