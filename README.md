@@ -308,10 +308,11 @@ As the **Core Developer**, I contributed to:
 
 ## 📫 Contact
 
-- **GitHub:** https://github.com/YaraAlansari-CS
-- **LinkedIn:** https://www.linkedin.com/in/yara-alansari-64b17a317
-- **Email:** yara.alansari01@gmail.com
-  
+- **GitHub:** [YaraAlansari-CS](https://github.com/YaraAlansari-CS)
+- **LinkedIn:** [Yara Alansari](https://www.linkedin.com/in/yara-alansari-64b17a317)
+- **Email:** [yara.alansari01@gmail.com](mailto:yara.alansari01@gmail.com)
+
 ---
 
-⭐ **If you found this project interesting or helpful, consider giving it a star on GitHub. Thank you for taking the time to explore this project!**
+⭐ **If you found this project interesting or helpful, consider giving it a star on GitHub. 
+🙏🏻 Thank you for taking the time to explore this project!**
