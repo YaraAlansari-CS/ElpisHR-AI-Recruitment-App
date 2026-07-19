@@ -29,8 +29,7 @@ By integrating advanced AI technologies into a single platform, ElpisHR reduces 
 
 ## 🎥 Demo
 
-▶️ **Watch the project demo here:**  
-[Demo Video](https://drive.google.com/file/d/1nXlrnkcmSo6qZpXQeLMEt_KCw3q8SnuN/view?usp=sharing)
+▶️ **Watch the project demo here:**  [Demo Video](https://drive.google.com/file/d/1nXlrnkcmSo6qZpXQeLMEt_KCw3q8SnuN/view?usp=sharing)
 
 ---
 
